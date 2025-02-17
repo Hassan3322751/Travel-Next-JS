@@ -9,12 +9,12 @@ const destinations = [
 
 const Discover = () => {
   return (
-    <div className="max-container padding-container flex flex-col gap-16 py-12">
+    <div className="bg-hero2 max-container padding-container flex flex-col gap-16 py-12">
       {/* Header Section */}
       <header className="text-center">
         <h1 className="text-4xl font-bold text-gray-900">Explore the World's Hidden Gems</h1>
         <p className="mt-4 text-lg text-gray-500">Find breathtaking locations curated just for you</p>
-        <div className="mt-6 flex justify-center gap-4">
+        <div className="mt-6 flex flex-col justify-center gap-4 md:flex-row">
           <button className="px-6 py-3 bg-purple-600 text-white rounded-full shadow-lg hover:bg-purple-700">Explore Now</button>
           <button className="px-6 py-3 border border-gray-400 rounded-full shadow hover:bg-gray-100">Watch Demo</button>
         </div>

@@ -50,6 +50,13 @@
     @apply text-[16px] font-[600];
   }
 
+  .bg-hero2 {
+    background-image: url('/earth.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    /* @apply absolute right-0 top-0 h-screen w-screen bg-cover bg-center md:right-[-15%] xl:top-[-10%]; */
+  }
+
   .bg-hero {
     background-image: url('/earth.png');
     background-repeat: no-repeat;
